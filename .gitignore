@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Package files
+*.tgz
+
+# Log files
+*.log
+*.log.*
+*.log-*
+*.lock
+
+# Process IDs
+*.pid
+*.pid.lock
+
+# Environment variables
+*.env
+
+# macOS system files
+.DS_Store
+
+# Archives
+*.zip
+*.tar.gz

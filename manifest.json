@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Webflow Attribute Editor",
+  "version": "1.0",
+  "description": "Boost your Webflow productivity with a visual attribute editor. Open a sleek modal to edit attributes visually and see changes instantly reflected in your Webflow Designer.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*.webflow.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.webflow.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icons/Attribute-Editor-16.png",
+    "19": "icons/Attribute-Editor-19.png",
+    "32": "icons/Attribute-Editor-32.png",
+    "38": "icons/Attribute-Editor-38.png",
+    "48": "icons/Attribute-Editor-48.png",
+    "128": "icons/Attribute-Editor-124.png"
+  }
+}
