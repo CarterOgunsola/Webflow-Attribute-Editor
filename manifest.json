@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Webflow Attribute Editor",
   "version": "1.0",
-  "description": "Boost your Webflow productivity with a visual attribute editor. Open a sleek modal to edit attributes visually and see changes instantly reflected in your Webflow Designer.",
+  "description": "Visual attribute editor for Webflow. Edit attributes in a sleek modal with instant updates in the Designer.",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["*://*.webflow.com/*"],
   "content_scripts": [
